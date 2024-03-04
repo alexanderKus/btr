@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book to read</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer async src="scripts.js"></script>
+  </head>
+  <body>
+    <center>
+      <h1 id="books-to-read">Books to read</h1>
+      <div id="wrapper">
+        <div id="book-list">
+        </div>
+        <div id="add-book">
+          book title:<input type="text" id="book-add-input"></input>
+          <button id="book-add-btn">+</button>
+        </div>
+      </div>
+    </center>
+  </body>
+
+  <template id="book-template">
+    <div class="book-wrapper">
+      <div class="book-title"></div>
+      <button class="book-delete-btn">Delete</button>
+    </div>
+  </template>
+</html>
