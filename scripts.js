@@ -1,5 +1,5 @@
 const LOCALSTORAGEKEY = "books_to_read";
-const BTR_API = "http://localhost:5204/books"
+const BTR_API = "http://localhost:8000/books"
 
 class Book {
   constructor(title) {
